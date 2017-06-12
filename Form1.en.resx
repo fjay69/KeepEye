@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 29</value>
+  </data>
+  <data name="UntilText" xml:space="preserve">
+    <value>Time until unlock:</value>
+  </data>
+  <data name="PauseText" xml:space="preserve">
+    <value>Pause</value>
+  </data>
+  <data name="notifyIcon1.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAGBgAAAEAIACICQAAFgAAACgAAAAYAAAAMAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJBztIiQc7XskHO26JBzt5SQc7f8kHO3/JBzt5SQc
+        7bokHO17JBztIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACMc
+        7SIjHO2pIxzt+yMc7f8jHO3/Ixzt/yMc7f8jG+z/Ixvs/yMb7P8jG+z/Ixvs+yMb7KkjG+wiAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIxvsYiMb7fEjG+3/Ixvt/yMb7f8jG+3/Ixvt/yMb
+        7f8jG+z/Ixvs/yMb7P8jG+z/Ixvs/yMb7P8jG+zxIxvsYgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAjG+yIIxvs/yMb7f8jG+3/Ixvt/yMb7f8jG+3/Ixvt/yMb7f8jG+z/Ixvs/yMb7P8jG+z/Ixvs/yMb
+        7P8jG+z/Ixvs/yMb7IgAAAAAAAAAAAAAAAAAAAAAAAAAACMb7WIjG+z/Ixvs/yMc7f8jHO3/Ixzt/yMc
+        7f8jHO3/Ixzt/yMc7f8jG+z/Ixvs/yMb7P8jG+z/Ixvs/yMb7P8jG+z/Ixvs/yMb7P8jG+xiAAAAAAAA
+        AAAAAAAAIxvsIiMb7fEjG+z/Ixvs/yMb7f8jG+3/Ixvt/yMb7f8jG+3/Ixvt/yMb7f8jG+z/Ixvs/yMb
+        7P8jG+z/Ixvs/yMb7P8jG+z/Ixvs/yMb7P8jG+zxIxvsIgAAAAAAAAAAIxvsqSMb7f8jG+z/Ixvs/yMb
+        7f8jG+3/Ixvt/yMb7f8jG+3/Ixvt/yMb7f8jG+z/Ixvs/yMb7P8jG+z/Ixvs/yMb7P8jG+z/Ixvs/yMb
+        7P8jG+z/IxvsqQAAAAAjG+wiIxvs+yMb7f8jG+z/Ixvs/yMc7f8jHO3/Ixzt/yMc7f8jHO3/Ixzt/yMc
+        7f8jG+z/Ixvs/yMb7P8jG+z/Ixvs/yMb7P8jG+z/Ixvs/yMb7P8jG+z/Ixvs+yQc7SIjG+x7Ixvs/yMb
+        7f8jG+z/Ixvs/yMb7f8jG+3/Ixvt/yMb7f8jG+3/Ixvt/yMb7f8jG+z/Ixvs/yMb7P8jG+z/Ixvs/yMb
+        7P8jG+z/Ixvs/yMb7P8jG+z/Ixvs/yQc7XsjG+y6Ixvs/yMb7f8jG+z/Ixvs/yMb7f8jG+3/Ixvt/yMb
+        7f8jG+3/Ixvt/yMb7f8jG+z/Ixvs/yMb7P8jG+z/Ixvs/yMb7P8jG+z/Ixvs/yMb7P8jG+z/Ixvs/yQc
+        7bojG+zlIxvs/yMb7f8jG+z/Ixvs/yMc7f8jHO3/Ixzt/yMc7f8jHO3/Ixzt/yMc7f8jG+z/Ixvs/yMb
+        7P8jG+z/Ixvs/yMb7P8jG+z/Ixvs/yMb7P8jG+z/Ixvs/yQc7eUjG+z/Ixvs/yMb7f8jG+z/Ixvs/yMb
+        7f8jG+3/Ixvt/yMb7f8jG+3/Ixvt/yMb7f8jG+z/Ixvs/yMb7P8jG+z/Ixvs/yMb7P8jG+z/Ixvs/yMb
+        7P8jG+z/Ixvs/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc
+        7f8jHO3/Ixzt/yMc7f8jHO3/Ixzt/yMc7f8jHO3/Ixzt/yMc7f8jHO3/Ixzt/yQc7f8kHO3lJBzt/yQc
+        7f8jHO3/Ixzt/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8jHO3/Ixzt/yMc7f8jHO3/Ixzt/yMc
+        7f8jHO3/Ixzt/yMc7f8jHO3/Ixzt/yQc7eUkHO26JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc
+        7f8kHO3/JBzt/yQc7f8jHO3/Ixzt/yMb7f8jHO3/Ixzt/yMb7f8jHO3/Ixzt/yMb7f8jHO3/Ixzt/yQc
+        7bokHO17JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8jHO3/Ixzt/yMc
+        7f8jHO3/Ixzt/yMc7f8jHO3/Ixzt/yMc7f8jHO3/Ixzt/yQc7XskHO0iJBzt+yQc7f8jHO3/Ixzt/yQc
+        7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8jHO3/Ixzt/yMc7f8jHO3/Ixzt/yMc7f8jHO3/Ixzt/yMc
+        7f8jHO3/Ixzt+yQc7SIAAAAAJBztqSQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc
+        7f8jHO3/Ixzt/yMb7f8jHO3/Ixzt/yMb7f8jHO3/Ixzt/yMb7f8jHO3/IxztqQAAAAAAAAAAJBztIiQc
+        7fEkHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8jHO3/Ixzt/yMc7f8jHO3/Ixzt/yMc
+        7f8jHO3/Ixzt/yMc7f8jHO3xIxztIgAAAAAAAAAAAAAAACMc7WIjHO3/Ixzt/yMc7f8jHO3/Ixzt/yMc
+        7f8jHO3/Ixzt/yMc7f8jG+z/Ixvs/yMb7P8jG+z/Ixvs/yMb7P8jG+z/Ixvs/yMb7P8jG+xiAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAjG+2IJBzt/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8jG+z/Ixvs/yMb
+        7P8jG+z/Ixvs/yMb7P8jG+z/Ixvs/yMb7IgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJBztYiQc
+        7fEkHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8jG+3/Ixvt/yMb7f8jG+3/Ixvt/yMb7f8jG+3xIxvtYgAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQc7SIkHO2pJBzt+yQc7f8kHO3/JBzt/yQc
+        7f8jG+z/Ixvs/yMb7P8jG+z/Ixvs+yMb7KkjG+wiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAJBztIiQc7XskHO26JBzt5SQc7f8jG+z/Ixvs5SMb7LojG+x7IxvsIgAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD+AH9B+AAfQfAAD0HgAAdBwAADQYAAAUGAAAFBAAAAQQAA
+        AEEAAABBAAAAQQAAAEEAAABBAAAAQQAAAEEAAABBAAAAQYAAAUGAAAFBwAADQeAAB0HwAA9B+AAfQf4A
+        f0E=
+</value>
+  </data>
+  <data name="AnyKey" xml:space="preserve">
+    <value>Press any key</value>
+  </data>
+  <data name="OneMinute" xml:space="preserve">
+    <value>One minute left!</value>
+  </data>
+  <data name="TimeUntilLock" xml:space="preserve">
+    <value>Time until lock:</value>
+  </data>
+</root>
