@@ -65,22 +65,23 @@
             // 
             // timer1
             // 
+            this.timer1.Enabled = true;
             this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // timer2
             // 
+            this.timer2.Enabled = true;
             this.timer2.Interval = 1000;
             this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
             // 
             // notifyIcon1
             // 
-            resources.ApplyResources(this.notifyIcon1, "notifyIcon1");
             this.notifyIcon1.ContextMenuStrip = this.contextMenuStrip1;
+            resources.ApplyResources(this.notifyIcon1, "notifyIcon1");
             // 
             // contextMenuStrip1
             // 
-            resources.ApplyResources(this.contextMenuStrip1, "contextMenuStrip1");
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.режимОтдыхаToolStripMenuItem,
             this.отслМышьToolStripMenuItem,
@@ -88,35 +89,36 @@
             this.оПрограммеToolStripMenuItem,
             this.выходToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
+            resources.ApplyResources(this.contextMenuStrip1, "contextMenuStrip1");
             // 
             // режимОтдыхаToolStripMenuItem
             // 
-            resources.ApplyResources(this.режимОтдыхаToolStripMenuItem, "режимОтдыхаToolStripMenuItem");
             this.режимОтдыхаToolStripMenuItem.Name = "режимОтдыхаToolStripMenuItem";
+            resources.ApplyResources(this.режимОтдыхаToolStripMenuItem, "режимОтдыхаToolStripMenuItem");
             this.режимОтдыхаToolStripMenuItem.Click += new System.EventHandler(this.режимОтдыхаToolStripMenuItem_Click);
             // 
             // отслМышьToolStripMenuItem
             // 
-            resources.ApplyResources(this.отслМышьToolStripMenuItem, "отслМышьToolStripMenuItem");
             this.отслМышьToolStripMenuItem.Name = "отслМышьToolStripMenuItem";
+            resources.ApplyResources(this.отслМышьToolStripMenuItem, "отслМышьToolStripMenuItem");
             this.отслМышьToolStripMenuItem.Click += new System.EventHandler(this.отслМышьToolStripMenuItem_Click);
             // 
             // настройкиToolStripMenuItem
             // 
-            resources.ApplyResources(this.настройкиToolStripMenuItem, "настройкиToolStripMenuItem");
             this.настройкиToolStripMenuItem.Name = "настройкиToolStripMenuItem";
+            resources.ApplyResources(this.настройкиToolStripMenuItem, "настройкиToolStripMenuItem");
             this.настройкиToolStripMenuItem.Click += new System.EventHandler(this.настройкиToolStripMenuItem_Click);
             // 
             // оПрограммеToolStripMenuItem
             // 
-            resources.ApplyResources(this.оПрограммеToolStripMenuItem, "оПрограммеToolStripMenuItem");
             this.оПрограммеToolStripMenuItem.Name = "оПрограммеToolStripMenuItem";
+            resources.ApplyResources(this.оПрограммеToolStripMenuItem, "оПрограммеToolStripMenuItem");
             this.оПрограммеToolStripMenuItem.Click += new System.EventHandler(this.оПрограммеToolStripMenuItem_Click);
             // 
             // выходToolStripMenuItem
             // 
-            resources.ApplyResources(this.выходToolStripMenuItem, "выходToolStripMenuItem");
             this.выходToolStripMenuItem.Name = "выходToolStripMenuItem";
+            resources.ApplyResources(this.выходToolStripMenuItem, "выходToolStripMenuItem");
             this.выходToolStripMenuItem.Click += new System.EventHandler(this.выходToolStripMenuItem_Click);
             // 
             // Form1
