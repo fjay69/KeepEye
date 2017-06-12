@@ -117,6 +117,11 @@ namespace KeepEye2
             }
         }
 
+        private void notifyIcon1_MouseMove(object sender, MouseEventArgs e)
+        {            
+            notifyIcon1.Text = LocRM.GetString("TimeUntilLock") + " " + (stageMoment - DateTime.Now).ToString("hh':'mm':'ss");
+        }    
+
         private void отслМышьToolStripMenuItem_Click(object sender, EventArgs e)
         {
             отслМышьToolStripMenuItem.Checked = !отслМышьToolStripMenuItem.Checked;
