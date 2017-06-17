@@ -200,5 +200,27 @@ namespace KeepEye2
             label2.Top = (SystemInformation.PrimaryMonitorSize.Height / 2) - (label2.Height / 2) + 30;
             //BlockInput(true);            
         }
+
+        private void Form1_MouseClick(object sender, MouseEventArgs e)
+        {
+            Form1_KeyPress(sender, null);
+        }
+
+        private void Form1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (stageMoment < DateTime.Now && stage == 2) awake();
+        }
+
+        private void awake()
+        {
+            Cursor.Show();
+            timer2.Enabled = true;
+            this.Visible = false;
+            this.WindowState = FormWindowState.Minimized;
+            stage = 0;
+            stageMoment = DateTime.Now.AddSeconds(worktime);
+            sleepMoment = stageMoment.AddSeconds(-60);
+            //BlockInput(false);
+        }
     }
 }
