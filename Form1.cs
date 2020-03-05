@@ -90,7 +90,8 @@ namespace KeepEye2
                     time3null = false;
                     lastMouseMoveMoment = DateTime.Now;
                 }
-                if ((DateTime.Now - lastMouseMoveMoment).TotalSeconds > pausetime && timer1.Enabled && followmouse && FindWindow("MediaPlayerClassicW", null) == IntPtr.Zero) PauseUnpause(null, null);
+                if ((DateTime.Now - lastMouseMoveMoment).TotalSeconds > pausetime && timer1.Enabled && followmouse
+                && FindWindow("MediaPlayerClassicW", null) == IntPtr.Zero && FindWindow("MPC-BE", null) == IntPtr.Zero) PauseUnpause(null, null);
             }
             else
             {
